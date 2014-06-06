@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ded01675-1453-4acb-b554-475bc826ea4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tonyb/java8/lambdas/Gremlin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tonyb/java8/lambdas/GremlinFactory7.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tonyb/java8/lambdas/GremlinFactory8.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tonyb/java8/lambdas/Humidity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tonyb/java8/lambdas/Time.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codenarc-idea.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java-8-playground.iml" afterPath="$PROJECT_DIR$/java-8-playground.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tonyb/java8/lambdas/GremlinFactory7.java" afterPath="$PROJECT_DIR$/src/main/java/tonyb/java8/lambdas/GremlinFactory7.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tonyb/java8/lambdas/GremlinFactory8.java" afterPath="$PROJECT_DIR$/src/main/java/tonyb/java8/lambdas/GremlinFactory8.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="java-8-playground.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,11 +57,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GremlinFactory7.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="GremlinFactory7.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/tonyb/java8/lambdas/GremlinFactory7.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="770">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.4834254" vertical-offset="28" max-vertical-offset="854">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#interactWith#0;class#GremlinFactory7#0" expanded="false" />
@@ -87,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GremlinFactory8.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GremlinFactory8.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tonyb/java8/lambdas/GremlinFactory8.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74585634" vertical-offset="34" max-vertical-offset="966">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="1078">
+              <caret line="26" column="125" selection-start-line="26" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -399,8 +382,8 @@
         <option value="$PROJECT_DIR$/src/main/java/tonyb/java8/lambdas/GremlinFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/tonyb/java8/lambdas/Time.java" />
         <option value="$PROJECT_DIR$/src/main/java/tonyb/java8/lambdas/Humidity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tonyb/java8/lambdas/GremlinFactory7.java" />
         <option value="$PROJECT_DIR$/src/main/java/tonyb/java8/lambdas/GremlinFactory8.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tonyb/java8/lambdas/GremlinFactory7.java" />
       </list>
     </option>
   </component>
@@ -500,6 +483,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-8-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-8-playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java8" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -960,17 +973,21 @@
       <created>1402044103044</created>
       <updated>1402044103044</updated>
       <workItem from="1402044105706" duration="1006000" />
-      <workItem from="1402045114295" duration="4629000" />
+      <workItem from="1402045114295" duration="4891000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project structure">
       <created>1402044285696</created>
       <updated>1402044285696</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Gremlin example of injecting behaviour">
+      <created>1402053107397</created>
+      <updated>1402053107397</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5635000" />
+    <option name="totallyTimeSpent" value="5897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1916" y="-124" width="1928" height="1208" extended-state="6" />
@@ -1029,7 +1046,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Initial project structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial project structure" />
+    <MESSAGE value="Gremlin example of injecting behaviour" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gremlin example of injecting behaviour" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1090,23 +1108,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tonyb/java8/lambdas/GremlinFactory7.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tonyb/java8/lambdas/GremlinFactory8.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="770">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="1078">
+          <caret line="26" column="125" selection-start-line="26" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#interactWith#0;class#GremlinFactory7#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tonyb/java8/lambdas/GremlinFactory8.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tonyb/java8/lambdas/GremlinFactory7.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74585634" vertical-offset="34" max-vertical-offset="966">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4834254" vertical-offset="28" max-vertical-offset="854">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#interactWith#0;class#GremlinFactory7#0" expanded="false" />
           </folding>
         </state>
       </provider>

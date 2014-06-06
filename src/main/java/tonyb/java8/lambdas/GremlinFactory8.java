@@ -24,8 +24,8 @@ public class GremlinFactory8 {
             return (dryness.equals(Humidity.Dry)) ? new LambdaGremlin(Speech::happy, Mood::gentle) : new LambdaGremlin(Speech::dissy, Mood::uppity);
         case AfterMidnight:
             return (dryness.equals(Humidity.Dry)) ? new LambdaGremlin(Speech::dissy, Mood::uppity) : new LambdaGremlin(Speech::scarey, Mood::aggressive);
+        default: throw new IllegalArgumentException("Sorry, Time seems to be broken, please come back sometime last month.");
         }
-        return null;
     }
 
     public static class LambdaGremlin implements Gremlin, Speech, Mood {
@@ -40,9 +40,11 @@ public class GremlinFactory8 {
         public String speak() {
             return speech.speak();
         }
+
         public String act() {
             return mood.act();
         }
+
         public String toString() {
             return describe();
         }
@@ -50,12 +52,15 @@ public class GremlinFactory8 {
 
     public interface Speech {
         String speak();
+
         static String happy() {
             return "happy, gurgling song";
         }
+
         static String dissy() {
             return "snigger";
         }
+
         static String scarey() {
             return "growl";
         }
@@ -63,12 +68,15 @@ public class GremlinFactory8 {
 
     public interface Mood {
         String act();
+
         static String gentle() {
             return "cute & cuddly";
         }
+
         static String uppity() {
             return "snarky";
         }
+
         static String aggressive() {
             return "bitey, scratchy, nasty";
         }

@@ -1,6 +1,5 @@
 package tonyb.java8.lambdas;
 
-
 import static tonyb.java8.lambdas.Time.*;
 import static tonyb.java8.lambdas.Humidity.*;
 
@@ -23,17 +22,20 @@ public class GremlinFactory7 {
             return (dryness.equals(Humidity.Dry)) ? new Mogwai() : new SecondGenGremlin();
         case AfterMidnight:
             return (dryness.equals(Humidity.Dry)) ? new SecondGenGremlin() : new ThirdGenGremlin();
+        default:
+            throw new IllegalArgumentException("Sorry, Time seems to be broken, please come back sometime last month.");
         }
-        return null;
     }
 
     public static class Mogwai implements Gremlin {
         public String speak() {
             return "happy, gurgling song";
         }
+
         public String act() {
             return "cute & cuddly";
         }
+
         public String toString() {
             return describe();
         }
@@ -43,9 +45,11 @@ public class GremlinFactory7 {
         public String speak() {
             return "snigger";
         }
+
         public String act() {
             return "snarky";
         }
+
         public String toString() {
             return describe();
         }
@@ -55,9 +59,11 @@ public class GremlinFactory7 {
         public String speak() {
             return "growl";
         }
+
         public String act() {
             return "bitey, scratchy, nasty";
         }
+
         public String toString() {
             return describe();
         }
