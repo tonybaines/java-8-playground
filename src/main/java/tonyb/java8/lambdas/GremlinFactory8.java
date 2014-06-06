@@ -51,15 +51,12 @@ public class GremlinFactory8 {
             this.speech = speech;
             this.mood = mood;
         }
-
         public String speak() {
             return speech.speak();
         }
-
         public String act() {
             return mood.act();
         }
-
         public String toString() {
             return describe();
         }
@@ -67,15 +64,12 @@ public class GremlinFactory8 {
 
     public interface Speech {
         String speak();
-
         static String happy() {
             return "happy, gurgling song";
         }
-
         static String dissy() {
             return "snigger";
         }
-
         static String scarey() {
             return "growl";
         }
@@ -83,15 +77,12 @@ public class GremlinFactory8 {
 
     public interface Mood {
         String act();
-
         static String gentle() {
             return "cute & cuddly";
         }
-
         static String uppity() {
             return "snarky";
         }
-
         static String aggressive() {
             return "bitey, scratchy, nasty";
         }
