@@ -19,11 +19,15 @@ public class GremlinFactory7 {
     public static Gremlin newGremlin(Time time, Humidity dryness) {
         switch (time) {
         case BeforeMidnight:
-            return (dryness.equals(Humidity.Dry)) ? new Mogwai() : new SecondGenGremlin();
+            return (dryness.equals(Humidity.Dry))
+                    ? new Mogwai()
+                    : new SecondGenGremlin();
         case AfterMidnight:
-            return (dryness.equals(Humidity.Dry)) ? new SecondGenGremlin() : new ThirdGenGremlin();
+            return (dryness.equals(Humidity.Dry))
+                    ? new SecondGenGremlin()
+                    : new ThirdGenGremlin();
         default:
-            throw new IllegalArgumentException("Sorry, Time seems to be broken, please come back sometime last month.");
+            throw new IllegalArgumentException("Sorry, Time seems to be broken. Please come back sometime last month.");
         }
     }
 

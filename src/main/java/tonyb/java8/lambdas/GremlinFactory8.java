@@ -16,15 +16,30 @@ public class GremlinFactory8 {
 
         Gremlin thirdGenerationGremlin = GremlinFactory8.newGremlin(AfterMidnight, Wet);
         interactWith(thirdGenerationGremlin);
+
+        Gremlin unknownGremlin = GremlinFactory8.newGremlin(null, null);
+        interactWith(unknownGremlin);
+
     }
 
     public static Gremlin newGremlin(Time time, Humidity dryness) {
-        switch (time) {
-        case BeforeMidnight:
-            return (dryness.equals(Humidity.Dry)) ? new LambdaGremlin(Speech::happy, Mood::gentle) : new LambdaGremlin(Speech::dissy, Mood::uppity);
-        case AfterMidnight:
-            return (dryness.equals(Humidity.Dry)) ? new LambdaGremlin(Speech::dissy, Mood::uppity) : new LambdaGremlin(Speech::scarey, Mood::aggressive);
-        default: throw new IllegalArgumentException("Sorry, Time seems to be broken, please come back sometime last month.");
+        if (time != null) {
+            switch (time) {
+            case BeforeMidnight:
+                return (dryness.equals(Humidity.Dry))
+                        ? new LambdaGremlin(Speech::happy, Mood::gentle)
+                        : new LambdaGremlin(Speech::dissy, Mood::uppity);
+            case AfterMidnight:
+                return (dryness.equals(Humidity.Dry))
+                        ? new LambdaGremlin(Speech::dissy, Mood::uppity)
+                        : new LambdaGremlin(Speech::scarey, Mood::aggressive);
+            default:
+                throw new IllegalArgumentException("Sorry, Time seems to be broken. Please come back sometime last month.");
+            }
+        } else {
+            return new LambdaGremlin(
+                    () -> "err",
+                    () -> "confused");
         }
     }
 
